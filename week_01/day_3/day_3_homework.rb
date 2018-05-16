@@ -140,8 +140,6 @@ p users["Erik"][:lottery_numbers].min
 
 # Return an array of Avril's lottery numbers that are even
 
-# users["Avril"][:lottery_numbers].each { |x| puts x if x.even? }
-
 even_lottery_numbers = []
 for x in users["Avril"][:lottery_numbers]
 if x % 2 == 0
