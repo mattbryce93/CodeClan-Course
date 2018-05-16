@@ -17,7 +17,7 @@ p meals['supper'] # returns nil as there is no key called 'supper'
 
 # when creating a hash we can give a default value for non declared keys that are accessed
 
-meals = Hash.new('nowt')
+meals = Hash.new('nowt') # to do this use cannot use `hash_name = {}` it must be with `hash_name = Hash.new('default')`
 p meals["supper"] # supper was never assigned so its value here is 'nowt'
 
 meals['supper'] = 'pancakes' # this assigns the 'supper' key value to 'pancakes'
@@ -28,3 +28,6 @@ p meals
 
 meals.delete('breakfast') # this will delete the key-value pair and must be done via the key, using a value string would bring an error
 p meals
+
+p meals.keys # will return all the keys of a Hash
+p meals.values # will return all the values in a Hash
