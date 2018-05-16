@@ -142,9 +142,9 @@ p users["Erik"][:lottery_numbers].min
 
 even_lottery_numbers = []
 for x in users["Avril"][:lottery_numbers]
-if x % 2 == 0
-  even_lottery_numbers.push(x)
-end
+  if x % 2 == 0
+    even_lottery_numbers.push(x)
+  end
 end
 p even_lottery_numbers
 
