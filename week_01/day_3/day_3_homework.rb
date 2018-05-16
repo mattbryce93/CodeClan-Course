@@ -140,7 +140,15 @@ p users["Erik"][:lottery_numbers].min
 
 # Return an array of Avril's lottery numbers that are even
 
-users["Avril"][:lottery_numbers].each { |x| puts x if x.even? }
+# users["Avril"][:lottery_numbers].each { |x| puts x if x.even? }
+
+even_lottery_numbers = []
+for x in users["Avril"][:lottery_numbers]
+if x % 2 == 0
+  even_lottery_numbers.push(x)
+end
+end
+p even_lottery_numbers
 
 # Erik is one lottery number short! Add the number 7 to be included in his lottery numbers
 
