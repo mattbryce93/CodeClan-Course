@@ -1,4 +1,5 @@
-# Exercise objective create a hash that has names and pocket money amounts
+# Make a hash with a key of a persons name and the value as their pocket money.
+# Try updating and deleting items from it.
 
 name_money_hash = Hash.new(0) # default value is 0
 name_money_hash['Steven'] = 100 # adding key-value pairs
