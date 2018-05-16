@@ -1,4 +1,4 @@
-fruits = ['apple', 'banana', 'grape', 'orange']
+ fruits = ['apple', 'banana', 'grape', 'orange']
 
 p fruits
 # an array index starts at 0 so fruits[2] is 'grape'
@@ -46,5 +46,13 @@ p fruits_numbers_arr
 
 array_inception = [1, 2, 3, 4, [5, 6, 7]] # you can even have arrays within arrays!
 p array_inception
+
+p fruits
+
+fruits.sort() # this will sort the array but it won't commit the changes permenantly
+p fruits
+
+fruits.sort!() # the exclamation mark in the sort function commits the changes to the fruits array
+p fruits
 
 # for more details about arrays have a look here https://ruby-doc.org/core-2.4.1/Array.html
