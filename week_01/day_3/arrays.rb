@@ -1,7 +1,6 @@
- fruits = ['apple', 'banana', 'grape', 'orange']
+ fruits = ['apple', 'banana', 'grape', 'orange'] # an array index starts at 0 so fruits[2] is 'grape'
 
 p fruits
-# an array index starts at 0 so fruits[2] is 'grape'
 p fruits[0] #'apple'
 p fruits[2] #'grape'
 p fruits[4] #nil
