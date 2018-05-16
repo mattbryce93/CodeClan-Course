@@ -4,7 +4,7 @@ p "What number am I thinking of?"
 value = gets.chomp.to_i() # .to_i is necessary otherwise any number entered would be treated as a string
 
 while(value != my_number) # determines if the user is correct immediately
-  if value < my_number # introuduces an if statement to give the user a clue based on their guess
+  if value < my_number # introduces an if statement to give the user a clue based on their guess
     p "Nope, it's higher!"
   else
     p "Nope, its lower!"
