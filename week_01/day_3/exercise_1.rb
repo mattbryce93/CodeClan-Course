@@ -18,3 +18,9 @@ p pocket_money # checking second hash
 
 p name_money_hash['Bob'] # will return 0
 p pocket_money['Bob'] # will return nil
+
+name_money_hash.delete('Steven') # will delete the 'Steven' key-pair value
+pocket_money['Matt'] = "£6" # will update the 'Matt' value
+
+p name_money_hash # checking new values
+p pocket_money
