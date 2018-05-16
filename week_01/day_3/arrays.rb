@@ -46,3 +46,5 @@ p fruits_numbers_arr
 
 array_inception = [1, 2, 3, 4, [5, 6, 7]] # you can even have arrays within arrays!
 p array_inception
+
+# for more details about arrays have a look here https://ruby-doc.org/core-2.4.1/Array.html
