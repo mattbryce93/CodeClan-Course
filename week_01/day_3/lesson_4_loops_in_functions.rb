@@ -32,7 +32,7 @@ def find_chicken_by_name(name, array) # adding the array variable allows is to p
   end
 end
 
-# p find_chicken_by_name("Audrey", chicken_hashes) # the order of the variables is important as it needs to match the def variable order
+p find_chicken_by_name("Audrey", chicken_hashes) # the order of the variables is important as it needs to match the def variable order
 
 p find_chicken_by_name("Brian", chicken_hashes) # there is no Brian value and so Ruby returns the entire hash
 
