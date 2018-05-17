@@ -35,7 +35,9 @@ p stops
 
 # How many stops there are in the array?
 
-p stops.length
+p stops.length()
+p stops.count()
+p stops.size()
 
 # How many ways can we return "Falkirk High" from the array?
 
@@ -47,17 +49,20 @@ for stop in stops
     p "This is not Falkirk High this is #{stop}."
   end
 end
+p stops[-5]
 p stops[2..2]
-
+p stops.slice(2) # stops.slice!(2) would alter the original array permenantly
+p stops.fetch(2)
+p stops.at(2)
 
 # Reverse the positions of the stops in the array
 
-p stops.reverse
+p stops.reverse() # stops.reverse!() would alter the original array permenantly
 
 # Print out all the stops using a for loop
 
 for stop in stops
-  p "#{stop}"
+  p stop
 end
 
 # Exercise B
@@ -136,14 +141,14 @@ p users["Avril"][:pets][0][:species]
 
 # Get the smallest of Erik's lottery numbers
 
-p users["Erik"][:lottery_numbers].min
+p users["Erik"][:lottery_numbers].min()
 
 # Return an array of Avril's lottery numbers that are even
 
 even_lottery_numbers = []
-for x in users["Avril"][:lottery_numbers]
-  if x % 2 == 0
-    even_lottery_numbers.push(x)
+for num in users["Avril"][:lottery_numbers]
+  if num % 2 == 0
+    even_lottery_numbers.push(num)
   end
 end
 p even_lottery_numbers
@@ -158,8 +163,12 @@ p users["Erik"][:home_town] = 'Edinburgh'
 
 # Add a pet dog to Erik called "Fluffy"
 
-users["Erik"][:pets].push({:name => 'Fluffy', :species => 'dog'})
-p users["Erik"][:pets]
+users["Erik"][:pets].push({
+  :name => 'Fluffy',
+  :species => 'dog'
+})
+
+p users["Erik"][:pets][4]
 
 # Add another person to the users hash
 

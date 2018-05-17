@@ -36,6 +36,9 @@ p meals.values # will return all the values in a Hash
 p :my_sym # the colon here creates a symbol
 p :hello
 
+# A note about symbols is that they are much faster as they do not have methods attached to them. This is one of the reasons why they are faster than strings.
+
+
 p :my_sym + :hello # a string would concantenate,  symbols cannot be added like this
 
 meals = { # this hash uses symbols as the keys, this is a much faster way of accessing hashes and can be used to optimise systems significantly
