@@ -169,7 +169,7 @@ users.merge!("Rachel" => {
   :home_town => "Troon",
   :pets => [
     {
-      :name => "Woof",
+      :name => "Bark",
       :species => "cat"
     }
   ]
