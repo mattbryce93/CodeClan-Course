@@ -217,12 +217,21 @@ united_kingdom.push({
   :population => 1_811_000,
   :capital => 'Belfast'
   })
+
+# this could also have been done like this (I prefer this style I think)
+
+# united_kingdom.push({
+#   name: 'Northern Ireland',
+#   population: 1_811_000,
+#   capital: 'Belfast'
+#   })
+
 p united_kingdom
 
 # Use a loop to print the names of all the countries in the UK.
 
 for country in united_kingdom
-  print "#{country[:name]} "
+  p "#{country[:name]} "
 end
 
 # Use a loop to find the total population of the UK.
