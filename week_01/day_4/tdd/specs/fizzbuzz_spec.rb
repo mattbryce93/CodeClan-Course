@@ -29,4 +29,8 @@ class Fizzbuzz < MiniTest::Test # How to set up tests
     assert_equal("That's not a number!", fizz_buzz("three"))
   end
 
+  def test_fizz_buzz_0_returns_string
+    assert_equal("Error!", fizz_buzz(0))
+  end
+
 end
