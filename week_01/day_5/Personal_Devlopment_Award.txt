@@ -1,0 +1,9 @@
+Three Units:
+Analysis & Design
+Implementation & Testing
+Project
+
+Involves:
+4 x Multiple-Choice Tests
+2 x Coding Exercises
+Evidence Gathering for each unit
