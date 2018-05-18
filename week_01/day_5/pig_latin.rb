@@ -1,6 +1,6 @@
 def pigLatin(sentence)
 
-  result = ""
+  result = ''
 
   # split up the string into separate strings
 
@@ -23,9 +23,9 @@ def pigLatin(sentence)
 
     letters.push(first_letter)
 
-    # add 'ay' to the end if the word
+    # add 'ay ' to the end if the word
 
-    letters.push("ay ")
+    letters.push('ay ')
 
     # concantenate words into reassembled sentence
 
