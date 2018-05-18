@@ -5,7 +5,7 @@ def pigLatin(sentence)
   # split up the string into separate strings
 
   words = sentence.split()
-  #p words
+
   # iterate over the array
 
   for word in words
@@ -17,7 +17,7 @@ def pigLatin(sentence)
 
     # remove the first letter of the word
 
-    letters.shift().downcase()
+    letters.shift()
 
     # add that letter to the end of the word
 
@@ -31,14 +31,11 @@ def pigLatin(sentence)
 
     result += letters.join
 
-    # capitalize the strings first letter
-
-    result.capitalize!()
   end
 
-  # remove the extra space at the end of the string
+  # remove the extra space at the end of the string & capitalize the strings first letter
 
-  result.chop!()
+  result.capitalize!.chop!()
 
   # return new sentence
 
