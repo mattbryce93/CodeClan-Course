@@ -30,7 +30,7 @@ class BankAccount
   # end
   #
   # def set_account_type(new_type)
-  #   @type = new_type
+    # @type = new_type
   # end
 
   def pay_monthly_fee()
