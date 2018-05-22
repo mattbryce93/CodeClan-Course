@@ -12,6 +12,9 @@ class Bus_Stop
     @queue << name
   end
 
+  def clear_queue
+    @queue.clear()
+  end
 
 
 

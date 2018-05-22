@@ -1,7 +1,7 @@
 class Bus
 
   attr_reader :route, :destination
-  
+
   def initialize(route, destination, passengers)
     @route = route
     @destination = destination
@@ -29,14 +29,14 @@ class Bus
   end
 
   def remove_all_passengers
-    @passengers = []
+    @passengers.clear()
   end
 
   def collect_all_passengers(stop)
     for people in stop.queue
-      @passengers << people
+      add_passenger(people)
     end
-    stop.queue = []
+    stop.clear_queue()
   end
 
 end
