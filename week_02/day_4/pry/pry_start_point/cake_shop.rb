@@ -1,3 +1,5 @@
+require('pry')
+
 class CakeShop
 
   attr_reader :cakes
@@ -8,10 +10,11 @@ class CakeShop
 
   def average_cake_rating()
 
-    @cakes.map { |cake| cake.rating }
+    ratings = @cakes.map { |cake| cake.rating }
     ratings_sum = 0
-    
-    for rating in @cakes
+
+    for rating in ratings
+      # binding.pry
       ratings_sum += rating
     end
 
@@ -22,5 +25,3 @@ class CakeShop
   end
 
 end
-
-
