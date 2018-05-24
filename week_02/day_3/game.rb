@@ -19,7 +19,7 @@ class Game
   end
 
   def has_ended?
-    return true if @player.lives == 0 || @word.display == @word
+    return true if @player.lives == 0 || @word.display == @word.word
     return false
   end
 

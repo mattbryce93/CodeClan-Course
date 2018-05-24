@@ -1,6 +1,6 @@
 class HiddenWord
 
-  attr_reader :display
+  attr_reader :display, :word
 
   def initialize(word)
     @word = word
@@ -49,7 +49,7 @@ class HiddenWord
     end
     @display
   end
-  
+
   #   return positions #Brings back an array which includes the index position of the input_letter, which will later be used to position the letter within @word.
 
 
