@@ -12,4 +12,5 @@
 -- INNER JOIN bitings
 -- ON bitings.victim_id = victims.id
 -- INNER JOIN zombies
--- ON bitings.zombie_id = zombies.id;
+-- ON bitings.zombie_id = zombies.id
+-- WHERE victims.run_speed >= 12;
