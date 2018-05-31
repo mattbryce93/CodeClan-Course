@@ -12,5 +12,7 @@ CREATE TABLE albums (
   id SERIAL4 PRIMARY KEY,
   title VARCHAR(255),
   genre VARCHAR(255),
-  artist_id INT4 REFERENCES artists(id)
+  artist_id INT4 REFERENCES artists(id) ON DELETE CASCADE
+  -- ON DELETE CASCADE means that if an artist is deleted, any foreign key matching it will also be deleted
+  -- essentially if an artist is deleted, if any albums are remaining that belong to them will also be deleted
 );

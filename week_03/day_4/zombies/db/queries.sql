@@ -1,0 +1,15 @@
+-- SELECT victims.* FROM victims;
+--
+-- SELECT victims.* FROM victims
+-- INNER JOIN bitings
+-- ON bitings.victim_id = victims.id;
+--
+-- SELECT victims.*, bitings.* FROM victims
+-- INNER JOIN bitings
+-- ON bitings.victim_id = victims.id;
+--
+-- SELECT victims.name, bitings.infected_on, zombies.name FROM victims
+-- INNER JOIN bitings
+-- ON bitings.victim_id = victims.id
+-- INNER JOIN zombies
+-- ON bitings.zombie_id = zombies.id;
