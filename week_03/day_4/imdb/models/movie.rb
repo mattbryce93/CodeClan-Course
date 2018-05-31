@@ -1,4 +1,5 @@
 require_relative('../db/sql_runner')
+require_relative('./casting')
 require( 'pry-byebug' )
 
 class Movie
@@ -10,6 +11,7 @@ class Movie
     @title = options['title']
     @genre = options['genre']
     @rating = options['rating']
+    @budget = options['budget'].to_i
   end
 
   def save()
@@ -29,6 +31,28 @@ class Movie
     sql = "DELETE FROM movies WHERE id = $1"
     values = [@id]
     SqlRunner.run(sql, values)
+  end
+
+  def stars()
+    sql = "SELECT * FROM stars INNER JOIN castings ON castings.star_id = stars.id INNER JOIN movies ON castings.movie_id = movies.id WHERE movies.id = $1"
+    values = [@id]
+    results = SqlRunner.run(sql, values)
+    return results.map {|result| Star.new(result)}
+  end
+
+  def remaining_budget()
+    castings = self.castings()
+    return castings
+    casting_fees = castings.map{|casting| casting.fee}
+    combined_fees = casting_fees.sum
+    return @budget - combined_fees
+  end
+
+  def castings()
+    sql = "SELECT * FROM castings WHERE movie_id = $1"
+    values = [@id]
+    results = SqlRunner.run(sql, values)
+    return results.map {|result| Casting.new(result)}
   end
 
   def self.find(id)

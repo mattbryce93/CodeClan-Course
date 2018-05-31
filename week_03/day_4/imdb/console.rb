@@ -11,16 +11,26 @@ Casting.delete_all()
 movie1 = Movie.new({
   'title' => 'Fellowship of the Ring',
   'genre' => 'Fantasy',
-  'rating' => 'Critically Acclaimed'
+  'rating' => 'Critically Acclaimed',
+  'budget' => '1_000_000_000'
   })
 movie1.save()
 
 movie2 = Movie.new({
   'title' => 'Two Towers',
   'genre' => 'Fantasy',
-  'rating' => 'Oscar Awarded'
+  'rating' => 'Oscar Awarded',
+  'budget' => '4_000_000_000'
   })
 movie2.save()
+
+movie3 = Movie.new({
+  'title' => 'The Return of the King',
+  'genre' => 'Fantasy',
+  'rating' => 'Absolutely Smashing',
+  'budget' => '6_000_000_000'
+  })
+movie3.save()
 
 star1 = Star.new({
   'first_name' => 'Elijah',
@@ -48,6 +58,20 @@ casting2 = Casting.new({
   })
 casting2.save()
 
+casting3 = Casting.new({
+  'movie_id' => movie2.id,
+  'star_id' => star1.id,
+  'fee' => '1_000_000'
+  })
+casting3.save()
+
+casting4 = Casting.new({
+  'movie_id' => movie3.id,
+  'star_id' => star2.id,
+  'fee' => '1_000_000_000'
+  })
+casting4.save()
+
 movie1.genre = "Coming of Age"
 movie1.update()
 
@@ -56,8 +80,6 @@ star1.update()
 
 casting1.fee = 500_000
 casting1.update()
-
-
 
 
 binding.pry
