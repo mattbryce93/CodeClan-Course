@@ -48,6 +48,15 @@ casting2 = Casting.new({
   })
 casting2.save()
 
+movie1.genre = "Coming of Age"
+movie1.update()
+
+star1.first_name = "Eli"
+star1.update()
+
+casting1.fee = 500_000
+casting1.update()
+
 
 
 

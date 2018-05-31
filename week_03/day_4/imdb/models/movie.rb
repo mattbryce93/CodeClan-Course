@@ -19,6 +19,12 @@ class Movie
     @id = results['id'].to_i
   end
 
+  def update()
+    sql = "UPDATE movies SET (title, genre, rating) = ($1, $2, $3) WHERE id = $4"
+    values = [@title, @genre, @rating, @id]
+    SqlRunner.run(sql, values)
+  end
+
   def self.find(id)
     sql = "SELECT * FROM movies WHERE id = $1"
     values = [id]

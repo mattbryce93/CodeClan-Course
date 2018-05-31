@@ -18,6 +18,12 @@ class Star
     @id = results['id'].to_i
   end
 
+  def update()
+    sql = "UPDATE stars SET (first_name, last_name) = ($1, $2) WHERE id = $3"
+    values = [@first_name, @last_name, @id]
+    SqlRunner.run(sql, values)
+  end
+
   def self.find(id)
     sql = "SELECT * FROM stars WHERE id = $1"
     values = [id]
