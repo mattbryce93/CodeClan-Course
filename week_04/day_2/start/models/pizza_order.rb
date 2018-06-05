@@ -2,7 +2,7 @@ require_relative('../db/sql_runner')
 
 class PizzaOrder
 
-  attr_reader :first_name, :last_name, :topping, :quantity, :id
+  attr_reader :first_name, :last_name, :topping, :quantity, :id, :price
 
   def initialize( options )
     @id = options['id'].to_i

@@ -1,0 +1,66 @@
+body{
+  background-image: url(pizza.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: tahoma;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 60px;
+    overflow: hidden;
+    background-color: #BF2E26;
+    position: fixed;
+    max-width: 500px;
+    min-width: 300px;
+
+}
+
+li {
+  flex-direction: row;
+  float: left;
+  justify-content: center;
+}
+
+li a {
+    display: block;
+    color: #D6C3C9;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+}
+
+a{
+  color: #D6C3C9;
+}
+
+a:hover{
+  color: #fff;
+}
+
+nav {
+  margin-top: 1px;
+}
+
+#content{
+  padding-top: 60px;
+}
+
+p {
+  color: white;
+  text-align: center;
+  margin-left: -900px;
+}
+
+label{
+  color: white;
+  text-align: center;
+  padding-left: 30px;
+}
+
+input{
+  margin: 10px;
+}

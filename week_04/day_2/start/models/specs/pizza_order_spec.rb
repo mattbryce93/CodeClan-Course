@@ -1,4 +1,5 @@
 require("minitest/autorun")
+require("minitest/rg")
 require_relative("../pizza_order")
 
 class TestPizzaOrder < MiniTest::Test
