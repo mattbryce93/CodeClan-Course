@@ -1,0 +1,42 @@
+.container {
+  border: solid 1px black;
+  display: flex;
+  height: 200px;
+  flex-direction: row;
+}
+
+.box {
+  /* flex-basis: 10px;
+  flex-grow: 1; */
+  flex: 1 10px;
+}
+
+.green {
+  background-color: lightgreen;
+  flex-grow: 3;
+}
+
+.red {
+  background-color: tomato;
+}
+
+.purple {
+  background-color: plum;
+}
+
+.peach {
+  background-color: peachpuff;
+}
+
+@media all and (max-width: 600px){
+  .container {
+    flex-direction: column;
+  }
+}
+
+@media all and (max-width: 400px){
+  .green {
+    background-color: darkgreen;
+    flex-grow: 1;
+  }
+}
