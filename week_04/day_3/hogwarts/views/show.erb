@@ -1,0 +1,10 @@
+<form class="show" method="post" action="/students/<%= @student.id %>/delete">
+  <p><%= @student.first_name %><p>
+    <p><%= @student.last_name %><p>
+      <p><%= @student.find_house.name %><p>
+        <p><%= @student.age %><p>
+          <p><input type='submit' value="Delete Student"/></p>
+        </form>
+        <form method="get" action="/students/<%= @student.id %>/edit">
+          <p><input type='submit' value="Edit Student"/></p>
+        </form>

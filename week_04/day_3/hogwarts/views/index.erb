@@ -1,0 +1,7 @@
+<% for student in @students %>
+  <p>First Name: <%= student.first_name %></p>
+  <p>Last Name: <%= student.last_name %></p>
+  <p>House: <%= student.find_house().name() %></p>
+  <p>Age: <%= student.age.to_s %></p>
+  <p><a href="/students/<%= student.id %>">More Details</a></p>
+<% end %>

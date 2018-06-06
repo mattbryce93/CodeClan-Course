@@ -1,0 +1,63 @@
+body {
+  background-image: url(http://bgfons.com/uploads/books/books_texture3031.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: 'Dancing Script', cursive;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 30%;
+  margin-left: 80%;
+  margin-top: 7%;
+  transform: rotate(-2deg);
+}
+
+.nav {
+  display: flex;
+  position: fixed;
+  color: black;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  width: 50%;
+  margin-left: 43%;
+  margin-top: 8%;
+  transform: rotate(-2deg);
+}
+
+.content {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 55%;
+  width: auto;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 15%;
+  margin-bottom: 22%;
+}
+
+.content .new{
+  align-items: flex-start;
+  width: auto;
+
+  transform: rotate(-2deg);
+}
+
+.content .show{
+  align-items: flex-start;
+  width: auto;
+}
+
+/* .container {
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+width: 30%;
+margin-left: 80%;
+margin-top: 7%;
+transform: rotate(-2deg);
+} */
