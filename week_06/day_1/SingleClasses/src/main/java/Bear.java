@@ -1,5 +1,5 @@
 public class Bear {
-    String name;
+    private String name;
 
     public Bear(String name){
         this.name = name;
@@ -7,5 +7,9 @@ public class Bear {
 
     public String getName(){
         return this.name;
+    }
+
+    public void setName(String newName){
+        this.name = newName;
     }
 }
