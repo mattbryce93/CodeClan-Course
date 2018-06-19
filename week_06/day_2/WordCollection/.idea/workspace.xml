@@ -13,35 +13,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="WordCollectionTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/WordCollectionTest.java">
+      <file leaf-file-name="NumberList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/NumberList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+            <state relative-caret-position="17">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#116#117#0" expanded="true" />
-                <element signature="e#161#162#0" expanded="true" />
-                <element signature="e#267#268#0" expanded="true" />
-                <element signature="e#322#323#0" expanded="true" />
+                <element signature="e#284#285#0" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WordCollection.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/WordCollection.java">
+      <file leaf-file-name="NumberListTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/NumberListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            <state relative-caret-position="285">
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
               <folding>
-                <element signature="e#95#96#0" expanded="true" />
-                <element signature="e#134#135#0" expanded="true" />
-                <element signature="e#162#163#0" expanded="true" />
-                <element signature="e#188#189#0" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#277#278#0" expanded="true" />
-                <element signature="e#335#336#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#769#770#0" expanded="true" />
+                <element signature="e#831#832#0" expanded="true" />
+                <element signature="e#873#874#0" expanded="true" />
+                <element signature="e#927#928#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,8 +56,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/WordCollection.java" />
         <option value="$PROJECT_DIR$/src/test/java/WordCollectionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/WordCollection.java" />
+        <option value="$PROJECT_DIR$/src/test/java/NumberListTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/NumberList.java" />
       </list>
     </option>
   </component>
@@ -138,12 +137,46 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WordCollectionTest">
+  <component name="RunManager" selected="JUnit.NumberListTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="NumberListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WordCollection" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NumberListTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="NumberListTest.canAddToList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WordCollection" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NumberListTest" />
+      <option name="METHOD_NAME" value="canAddToList" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="WordCollectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WordCollection" />
@@ -241,9 +274,13 @@
       <item itemvalue="JUnit.WordCollectionTest.canGetWordCount" />
       <item itemvalue="JUnit.WordCollectionTest.canAddObjects" />
       <item itemvalue="JUnit.WordCollectionTest" />
+      <item itemvalue="JUnit.NumberListTest" />
+      <item itemvalue="JUnit.NumberListTest.canAddToList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NumberListTest" />
+        <item itemvalue="JUnit.NumberListTest.canAddToList" />
         <item itemvalue="JUnit.WordCollectionTest" />
         <item itemvalue="JUnit.WordCollectionTest.canAddObjects" />
         <item itemvalue="JUnit.WordCollectionTest.canGetWordCount" />
@@ -261,31 +298,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WordCollectionTest_canGetWordCount - 2018.06.19 at 10h 27m 28s.xml">
-      <configuration name="WordCollectionTest.canGetWordCount" configurationId="JUnit" />
+    <history-entry file="NumberListTest - 2018.06.19 at 10h 44m 21s.xml">
+      <configuration name="NumberListTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WordCollectionTest_canGetWordCount - 2018.06.19 at 10h 28m 12s.xml">
-      <configuration name="WordCollectionTest.canGetWordCount" configurationId="JUnit" />
+    <history-entry file="NumberListTest_canAddToList - 2018.06.19 at 10h 59m 00s.xml">
+      <configuration name="NumberListTest.canAddToList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WordCollectionTest_canGetWordCount - 2018.06.19 at 10h 29m 42s.xml">
-      <configuration name="WordCollectionTest.canGetWordCount" configurationId="JUnit" />
+    <history-entry file="NumberListTest_canAddToList - 2018.06.19 at 11h 01m 56s.xml">
+      <configuration name="NumberListTest.canAddToList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WordCollectionTest_canGetWordCount - 2018.06.19 at 10h 30m 57s.xml">
-      <configuration name="WordCollectionTest.canGetWordCount" configurationId="JUnit" />
+    <history-entry file="NumberListTest - 2018.06.19 at 11h 03m 46s.xml">
+      <configuration name="NumberListTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WordCollectionTest_canGetWordCount - 2018.06.19 at 10h 34m 21s.xml">
-      <configuration name="WordCollectionTest.canGetWordCount" configurationId="JUnit" />
+    <history-entry file="NumberListTest - 2018.06.19 at 11h 07m 30s.xml">
+      <configuration name="NumberListTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WordCollectionTest_canAddObjects - 2018.06.19 at 10h 34m 30s.xml">
-      <configuration name="WordCollectionTest.canAddObjects" configurationId="JUnit" />
+    <history-entry file="NumberListTest - 2018.06.19 at 11h 08m 02s.xml">
+      <configuration name="NumberListTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WordCollectionTest - 2018.06.19 at 10h 35m 16s.xml">
-      <configuration name="WordCollectionTest" configurationId="JUnit" />
+    <history-entry file="NumberListTest - 2018.06.19 at 11h 26m 44s.xml">
+      <configuration name="NumberListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberListTest - 2018.06.19 at 11h 27m 44s.xml">
+      <configuration name="NumberListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberListTest - 2018.06.19 at 11h 35m 08s.xml">
+      <configuration name="NumberListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberListTest - 2018.06.19 at 11h 43m 47s.xml">
+      <configuration name="NumberListTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -314,6 +359,24 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/WordCollectionTest.java</url>
+          <line>4</line>
+          <properties />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/NumberListTest.java</url>
+          <line>7</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/WordCollection.iml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -325,32 +388,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WordCollection.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/WordCollectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        <state relative-caret-position="300">
+          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
           <folding>
-            <element signature="e#95#96#0" expanded="true" />
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/WordCollectionTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/WordCollection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+        <state relative-caret-position="90">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NumberList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding>
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/NumberListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#116#117#0" expanded="true" />
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#873#874#0" expanded="true" />
+            <element signature="e#927#928#0" expanded="true" />
           </folding>
         </state>
       </provider>
