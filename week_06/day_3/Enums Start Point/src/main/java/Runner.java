@@ -1,7 +1,5 @@
-import java.io.Console;
 import java.util.ArrayList;
 import java.util.Scanner;
-import java.util.concurrent.TimeUnit;
 
 public class Runner {
 
@@ -33,7 +31,7 @@ public class Runner {
 
         Game game = new Game(players, deck);
         game.getDeck().shuffle();
-        System.out.println("How many Cards would you like to play with?");
+        System.out.println("How many cards would you like to play with?");
         Scanner scanner2 = new Scanner(System.in);
         String cardNum = scanner2.nextLine();
         int numCards = Integer.parseInt(cardNum);
@@ -63,6 +61,8 @@ public class Runner {
         }
         game.dealMultipleCards(numCards);
 
+        System.out.println("");
+
         System.out.println(player1.getName() + " your card is the " + player1.prettyHand());
         System.out.println(player2.getName() + " your card is the " + player2.prettyHand());
         try {
@@ -70,6 +70,7 @@ public class Runner {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+        System.out.println("");
         System.out.println(game.comparePlayerHands());
 
     }

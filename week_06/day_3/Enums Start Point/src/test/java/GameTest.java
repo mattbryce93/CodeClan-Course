@@ -45,13 +45,13 @@ public class GameTest {
     @Test
     public void gameCanCompareHands(){
         game.dealCards();
-        assertEquals("Player2 has won!", game.comparePlayerHands());
+        assertEquals("Craig has won!", game.comparePlayerHands());
     }
 
     @Test
     public void gameCanCompareMultipleCardsInHands(){
         game.dealCards();
         game.dealCards();
-        assertEquals("Player2 has won!", game.comparePlayerHands());
+        assertEquals("Craig has won!", game.comparePlayerHands());
     }
 }
