@@ -16,11 +16,15 @@ public class Card {
         return this.rank;
     }
 
-    public int getValueFromEnum() {
+    public int getValueFromRank() {
         return this.rank.getValue();
     }
 
+    public String getValueFromSuit() {
+        return this.suit.getValue();
+    }
+
     public String niceName() {
-        return this.rank.getName() + " of " + this.suit;
+        return this.rank.getName() + " of " + this.suit.getValue();
     }
 }

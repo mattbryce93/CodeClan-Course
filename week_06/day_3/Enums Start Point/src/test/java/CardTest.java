@@ -40,12 +40,12 @@ public class CardTest {
 
     @Test
     public void canGetValueFromCard() {
-        assertEquals(6, card.getValueFromEnum());
+        assertEquals(6, card.getValueFromRank());
     }
 
     @Test
     public void canGetName() {
-        assertEquals("Six of HEARTS", card.niceName());
+        assertEquals("Six of Hearts", card.niceName());
     }
 
     @Test
@@ -63,5 +63,10 @@ public class CardTest {
             suits.add(suit);
         }
         assertEquals(4, suits.size());
+    }
+
+    @Test
+    public void canGetCardSuitValue() {
+        assertEquals("Hearts", card.getValueFromSuit());
     }
 }
