@@ -30,4 +30,21 @@ public class Player {
         Card card = deck.removeCard();
         this.hand.add(card);
     }
+
+    public ArrayList<String> handName(){
+        ArrayList<String > results = new ArrayList<String>();
+        for (Card card : this.hand){
+            results.add(card.niceName());
+        }
+        return results;
+    }
+
+    public String prettyHand() {
+        String result = "";
+        ArrayList<String> handArray = handName();
+        for (String string : handArray){
+            result += string + ", ";
+        }
+        return result;
+    }
 }
