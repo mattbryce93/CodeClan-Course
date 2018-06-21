@@ -9,7 +9,7 @@ public class InstructorTest {
 
     @Before
     public void before(){
-        instructor = new Instructor("John", "G4");
+        instructor = new Instructor("John", "G4", "Ruby");
     }
 
     @Test
@@ -36,5 +36,10 @@ public class InstructorTest {
     @Test
     public void canTalk(){
         assertEquals("I love Java", instructor.talk("Java"));
+    }
+
+    @Test
+    public void hasModuleTeam() {
+        assertEquals("Ruby", instructor.getModuleTeam());
     }
 }
