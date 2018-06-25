@@ -1,4 +1,4 @@
-public class Desktop {
+public class Desktop implements IConnect{
     private String name;
     private String make;
     private String model;
@@ -19,5 +19,9 @@ public class Desktop {
 
     public String getModel() {
         return model;
+    }
+
+    public String connect(String data){
+        return "connecting to " + data + " network";
     }
 }

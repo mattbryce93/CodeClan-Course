@@ -2,10 +2,10 @@ import java.util.*;
 
 public class Network {
     private String name;
-    private ArrayList<Desktop> devices;
+    private ArrayList<IConnect> devices;
 
     public Network(String name){
-        this.devices = new ArrayList<Desktop>();
+        this.devices = new ArrayList<IConnect>();
         this.name = name;
     }
 
@@ -17,8 +17,8 @@ public class Network {
         return devices.size();
     }
 
-    public void connect(Desktop desktop){
-        devices.add(desktop);
+    public void connect(IConnect device){
+        devices.add(device);
     }
 
     public void disconnectAll(){

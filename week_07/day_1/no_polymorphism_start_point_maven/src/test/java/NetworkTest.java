@@ -7,11 +7,13 @@ public class NetworkTest {
 
     Network network;
     Desktop desktop;
+    Printer printer;
 
     @Before
     public void before() {
         network = new Network("CodeClan");
         desktop = new Desktop("Keith's Desktop", "Apple", "Macbook Pro");
+        printer = new Printer();
     }
 
     @Test
@@ -27,6 +29,12 @@ public class NetworkTest {
     @Test
     public void canConnectDesktop() {
         network.connect(desktop);
+        assertEquals(1, network.deviceCount());
+    }
+
+    @Test
+    public void canConnectPrinter() {
+        network.connect(printer);
         assertEquals(1, network.deviceCount());
     }
 
