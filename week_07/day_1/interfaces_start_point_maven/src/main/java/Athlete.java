@@ -1,4 +1,4 @@
-public abstract class Athlete {
+public abstract class Athlete implements ITravelDistance {
     protected int distanceTravelled;
 
     public Athlete() {
@@ -7,5 +7,9 @@ public abstract class Athlete {
 
     public int getDistanceTravelled() {
         return distanceTravelled;
+    }
+
+    public void travelDistance(int distance){
+        distanceTravelled += distance;
     }
 }

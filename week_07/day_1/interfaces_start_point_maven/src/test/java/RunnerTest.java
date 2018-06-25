@@ -22,4 +22,11 @@ public class RunnerTest {
         runner.run(10);
         assertEquals(10, runner.getDistanceTravelled());
     }
+
+    @Test
+    public void canBeRefferedToAsInterfaceType() {
+        IRun somethingThatRuns = new Runner();
+        somethingThatRuns.run(10);
+        assertEquals(10, ((Runner) somethingThatRuns).getDistanceTravelled());
+    }
 }
