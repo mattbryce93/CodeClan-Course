@@ -17,5 +17,9 @@ public class RunnerTest {
         assertEquals(0, runner.getDistanceTravelled());
     }
 
-
+    @Test
+    public void canRun() {
+        runner.run(10);
+        assertEquals(10, runner.getDistanceTravelled());
+    }
 }
