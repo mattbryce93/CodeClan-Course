@@ -19,127 +19,116 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PrintingDevice.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/device_management/PrintingDevice.java">
+      <file leaf-file-name="Mouse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/device_management/Mouse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="21" selection-start-line="21" selection-end-line="22" />
+            <state relative-caret-position="38">
+              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
               <folding>
-                <element signature="e#402#403#0" expanded="true" />
+                <element signature="e#255#256#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Printer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/device_management/Printer.java">
+      <file leaf-file-name="MouseTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/MouseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="62" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
-              <folding>
-                <element signature="e#549#550#0" expanded="true" />
-                <element signature="e#588#589#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TypeWriter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/device_management/TypeWriter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VideoDevice.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/device_management/VideoDevice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Computer.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/device_management/Computer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="40" />
-              <folding>
-                <element signature="e#608#609#0" expanded="true" />
-                <element signature="e#665#666#0" expanded="true" />
-                <element signature="e#693#694#0" expanded="true" />
-                <element signature="e#741#742#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SoundDevice.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/device_management/SoundDevice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-              <folding>
-                <element signature="e#105#106#0" expanded="true" />
-                <element signature="e#142#143#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Speaker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/device_management/Speaker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
-              <folding>
-                <element signature="e#182#183#0" expanded="true" />
-                <element signature="e#220#221#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ComputerTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ComputerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="62" column="66" selection-start-line="62" selection-start-column="66" selection-end-line="62" selection-end-column="66" />
+            <state relative-caret-position="405">
+              <caret line="27" column="78" selection-start-line="27" selection-start-column="78" selection-end-line="27" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#411#412#0" expanded="true" />
-                <element signature="e#461#462#0" expanded="true" />
-                <element signature="e#503#504#0" expanded="true" />
-                <element signature="e#559#560#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+                <element signature="e#414#415#0" expanded="true" />
+                <element signature="e#442#443#0" expanded="true" />
+                <element signature="e#535#536#0" expanded="true" />
+                <element signature="e#564#565#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Radio.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/device_management/Radio.java">
+      <file leaf-file-name="Keyboard.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/device_management/Keyboard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="60">
+              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
               <folding>
-                <element signature="e#176#177#0" expanded="true" />
-                <element signature="e#217#218#0" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#323#324#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#422#423#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Television.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/device_management/Television.java">
+      <file leaf-file-name="KeyboardTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/KeyboardTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="6" selection-start-line="7" selection-start-column="4" selection-end-line="9" selection-end-column="6" />
+            <state relative-caret-position="330">
+              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
               <folding>
-                <element signature="e#207#208#0" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
+                <element signature="e#458#459#0" expanded="true" />
+                <element signature="e#487#488#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Computer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/device_management/Computer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="47" column="52" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#693#694#0" expanded="true" />
+                <element signature="e#741#742#0" expanded="true" />
+                <element signature="e#906#907#0" expanded="true" />
+                <element signature="e#940#941#0" expanded="true" />
+                <element signature="e#982#983#0" expanded="true" />
+                <element signature="e#1008#1009#0" expanded="true" />
+                <element signature="e#1136#1137#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IInput.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/behaviours/IInput.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IOutput.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/behaviours/IOutput.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ComputerTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ComputerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-787">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -466,6 +455,11 @@
         <option value="$PROJECT_DIR$/src/main/java/device_management/Printer.java" />
         <option value="$PROJECT_DIR$/src/main/java/device_management/Speaker.java" />
         <option value="$PROJECT_DIR$/src/main/java/device_management/SoundDevice.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MouseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/KeyboardTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/behaviours/IInput.java" />
+        <option value="$PROJECT_DIR$/src/main/java/device_management/Keyboard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/device_management/Mouse.java" />
         <option value="$PROJECT_DIR$/src/main/java/device_management/Computer.java" />
         <option value="$PROJECT_DIR$/src/test/java/ComputerTest.java" />
       </list>
@@ -538,8 +532,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -726,27 +720,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RadioTest - 2017.11.21 at 11h 49m 21s.xml">
-      <configuration name="RadioTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TelevisionTest - 2017.11.21 at 11h 11m 50s.xml">
-      <configuration name="TelevisionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TypeWriterTest - 2017.11.21 at 10h 49m 15s.xml">
-      <configuration name="TypeWriterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_CompositionStartPoint_test - 2018.06.26 at 10h 15m 21s.xml">
-      <configuration name="All in CompositionStartPoint_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_CompositionStartPoint_test - 2018.06.26 at 10h 35m 48s.xml">
-      <configuration name="All in CompositionStartPoint_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_CompositionStartPoint_test - 2018.06.26 at 10h 36m 48s.xml">
-      <configuration name="All in CompositionStartPoint_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_CompositionStartPoint_test - 2018.06.26 at 10h 41m 21s.xml">
-      <configuration name="All in CompositionStartPoint_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_CompositionStartPoint_test - 2018.06.26 at 10h 43m 44s.xml">
       <configuration name="All in CompositionStartPoint_test" configurationId="JUnit" />
     </history-entry>
@@ -754,6 +727,27 @@
       <configuration name="All in CompositionStartPoint_test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_CompositionStartPoint_test - 2018.06.26 at 10h 50m 12s.xml">
+      <configuration name="All in CompositionStartPoint_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_CompositionStartPoint_test - 2018.06.26 at 11h 17m 10s.xml">
+      <configuration name="All in CompositionStartPoint_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_CompositionStartPoint_test - 2018.06.26 at 11h 17m 20s.xml">
+      <configuration name="All in CompositionStartPoint_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_CompositionStartPoint_test - 2018.06.26 at 11h 22m 09s.xml">
+      <configuration name="All in CompositionStartPoint_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_CompositionStartPoint_test - 2018.06.26 at 11h 22m 21s.xml">
+      <configuration name="All in CompositionStartPoint_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_CompositionStartPoint_test - 2018.06.26 at 11h 22m 30s.xml">
+      <configuration name="All in CompositionStartPoint_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_CompositionStartPoint_test - 2018.06.26 at 11h 23m 13s.xml">
+      <configuration name="All in CompositionStartPoint_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_CompositionStartPoint_test - 2018.06.26 at 11h 23m 21s.xml">
       <configuration name="All in CompositionStartPoint_test" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -767,12 +761,11 @@
       <window_info anchor="right" id="Palette&#9;" order="0" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="1" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.32486632" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32486632" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info id="Designer" order="1" />
       <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.253125" />
-      <window_info anchor="bottom" id="Build" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
@@ -783,11 +776,12 @@
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info id="Capture Tool" order="0" />
       <window_info anchor="right" id="Commander" order="6" weight="0.4" />
       <window_info id="Image Layers" order="6" />
-      <window_info id="Capture Tool" order="0" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Build" order="11" />
       <window_info anchor="bottom" id="Find" order="5" />
     </layout>
   </component>
@@ -795,63 +789,19 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/device_management/Radio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-          <folding>
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/device_management/Monitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-          <folding>
-            <element signature="e#204#205#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/device_management/Television.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="6" selection-start-line="7" selection-start-column="4" selection-end-line="9" selection-end-column="6" />
-          <folding>
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/device_management/VideoDevice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/device_management/Printer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/device_management/Computer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
           <folding>
-            <element signature="e#521#522#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1136#1137#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -867,10 +817,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-          <folding>
-            <element signature="e#105#106#0" expanded="true" />
-            <element signature="e#142#143#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -894,10 +840,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding>
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -965,8 +907,14 @@
         <state relative-caret-position="300">
           <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
           <folding>
-            <element signature="e#521#522#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1136#1137#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -975,10 +923,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-          <folding>
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -993,10 +937,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-          <folding>
-            <element signature="e#105#106#0" expanded="true" />
-            <element signature="e#142#143#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1020,10 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1170,72 +1106,19 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/classes/device_management/SoundDevice.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#422#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/classes/device_management/PrintingDevice.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#560#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/classes/device_management/Printer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#698#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MonitorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="54" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/classes/device_management/Computer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#682#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/classes/device_management/Monitor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#355#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/behaviours/IOutput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/device_management/Monitor.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1252,10 +1135,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="62" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
-          <folding>
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1309,10 +1188,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
-          <folding>
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1320,36 +1195,120 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MonitorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="54" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="54" />
           <folding>
-            <element signature="e#105#106#0" expanded="true" />
-            <element signature="e#142#143#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ComputerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/MouseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="62" column="66" selection-start-line="62" selection-start-column="66" selection-end-line="62" selection-end-column="66" />
+        <state relative-caret-position="405">
+          <caret line="27" column="78" selection-start-line="27" selection-start-column="78" selection-end-line="27" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/KeyboardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/behaviours/IOutput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/behaviours/IInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/device_management/Mouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+          <folding>
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/device_management/Keyboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+          <folding>
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/device_management/Computer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="40" />
+        <state relative-caret-position="357">
+          <caret line="47" column="52" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
           <folding>
-            <element signature="e#608#609#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
+            <element signature="imports" expanded="true" />
             <element signature="e#693#694#0" expanded="true" />
             <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1136#1137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ComputerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-787">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
