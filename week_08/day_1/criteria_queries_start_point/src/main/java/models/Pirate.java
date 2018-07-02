@@ -57,4 +57,8 @@ public class Pirate {
     public void setAge(int age) {
         this.age = age;
     }
+
+    public String talk(){
+        return "Where has all the rum gone?!";
+    }
 }

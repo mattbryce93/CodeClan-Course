@@ -1,6 +1,8 @@
 import db.DBPirate;
 import models.Pirate;
 
+import java.util.List;
+
 public class Runner {
 
     public static void main(String[] args) {
@@ -15,5 +17,16 @@ public class Runner {
         Pirate pirate5 = new Pirate("Davey", "Jones", 154);
         DBPirate.save(pirate5);
 
+        List<Pirate> allPirates = DBPirate.getAll();
+
+        Pirate jack = DBPirate.find(pirate1.getId());
+
+        List<Pirate> oldPirates = DBPirate.oldPirates();
+
+        String jackTalking = jack.talk();
+
+        DBPirate.deleteAll();
+
+        List<Pirate> listAfterDelete = DBPirate.getAll();
     }
 }
