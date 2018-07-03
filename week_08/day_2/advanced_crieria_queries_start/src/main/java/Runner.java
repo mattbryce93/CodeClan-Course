@@ -23,9 +23,9 @@ public class Runner {
     Pirate pirate5 = new Pirate("Davey", "Jones", 154);
     DBHelper.save(pirate5);
 
-    List<Pirate> pirates = DBPirate.getAll();
+    List<Pirate> pirates = DBHelper.getAll(Pirate.class);
 
-    Pirate bruce = DBPirate.find(pirate1.getId());
+    Pirate bruce = DBHelper.find(Pirate.class, pirate1.getId());
 
     List<Pirate> piratesByAge = DBPirate.orderByAge();
 
@@ -39,6 +39,13 @@ public class Runner {
     DBHelper.update(ship);
 
     DBHelper.delete(pirate4);
-    List<Pirate> allPiratesAfterDelete = DBPirate.getAll();
+    List<Pirate> allPiratesAfterDelete = DBHelper.getAll(Pirate.class);
+
+    DBHelper.delete(ship);
+
+    List<Pirate> foundPirates = DBHelper.getAll(Pirate.class);
+    List<Ship> foundShips = DBHelper.getAll(Ship.class);
+
+    Pirate guybrush = DBHelper.find(Pirate.class, pirate5.getId());
   }
 }
