@@ -10,6 +10,7 @@ public class Ship {
     private int id;
     private String name;
     private List<Pirate> crew;
+    private Captain captain;
 
     public Ship() {
     }
@@ -45,5 +46,14 @@ public class Ship {
 
     public void setCrew(List<Pirate> crew) {
         this.crew = crew;
+    }
+
+    @OneToOne(mappedBy = "ship", fetch = FetchType.LAZY)
+    public Captain getCaptain() {
+        return captain;
+    }
+
+    public void setCaptain(Captain captain) {
+        this.captain = captain;
     }
 }

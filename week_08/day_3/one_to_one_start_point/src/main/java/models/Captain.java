@@ -1,5 +1,7 @@
 package models;
 
+import db.DBHelper;
+
 import javax.persistence.*;
 
 @Entity
@@ -82,6 +84,8 @@ public class Captain {
         this.popularity = popularity;
     }
 
+    @OneToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "ship_id", nullable = false)
     public Ship getShip() {
         return ship;
     }

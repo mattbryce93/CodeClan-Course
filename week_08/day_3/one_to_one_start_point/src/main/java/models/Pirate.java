@@ -1,6 +1,10 @@
 package models;
 
+import org.hibernate.annotations.Cascade;
+
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name="pirates")
@@ -12,6 +16,7 @@ public class Pirate {
     private int age;
     private Weapon weapon;
     private Ship ship;
+    private List<Raid> raids;
 
     public Pirate() {
     }
@@ -22,6 +27,7 @@ public class Pirate {
         this.age = age;
         this.weapon = weapon;
         this.ship = ship;
+        this.raids = new ArrayList<Raid>();
     }
 
     @Id
@@ -79,5 +85,20 @@ public class Pirate {
 
     public void setShip(Ship ship) {
         this.ship = ship;
+    }
+
+    @ManyToMany
+    @JoinTable(name = "pirate_raid", joinColumns = {@JoinColumn(name = "pirate_id", nullable = false, updatable = false)}, inverseJoinColumns = {@JoinColumn(name = "raid_id", nullable = false, updatable = false)})
+    @Cascade(org.hibernate.annotations.CascadeType.SAVE_UPDATE)
+    public List<Raid> getRaids() {
+        return raids;
+    }
+
+    public void setRaids(List<Raid> raids) {
+        this.raids = raids;
+    }
+
+    public void addRaid(Raid raid) {
+        this.raids.add(raid);
     }
 }

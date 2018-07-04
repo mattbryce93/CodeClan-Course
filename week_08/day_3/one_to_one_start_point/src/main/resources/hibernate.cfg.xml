@@ -14,5 +14,6 @@
         <mapping class = "models.Pirate"/>
         <mapping class = "models.Ship"/>
         <mapping class = "models.Captain"/>
+        <mapping class = "models.Raid"/>
     </session-factory>
 </hibernate-configuration>

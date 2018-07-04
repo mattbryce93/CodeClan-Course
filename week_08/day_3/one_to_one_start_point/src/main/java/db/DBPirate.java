@@ -1,7 +1,6 @@
 package db;
 
-import models.Pirate;
-import models.Weapon;
+import models.*;
 import org.hibernate.Criteria;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
@@ -65,6 +64,27 @@ public class DBPirate {
             session.close();
         }
         return weapons;
+    }
+
+    public static Captain getPiratesCaptain(Pirate pirate){
+        session = HibernateUtil.getSessionFactory().openSession();
+        Captain result = null;
+        try {
+            Criteria cr = session.createCriteria(Captain.class);
+            cr.add(Restrictions.eq("ship", pirate.getShip()));
+            result = (Captain) cr.uniqueResult();
+        } catch (HibernateException e){
+            e.printStackTrace();
+        } finally {
+            session.close();
+        }
+        return result;
+    }
+
+    public static void addPirateToRaid(Pirate pirate, Raid raid){
+            pirate.addRaid(raid);
+            raid.addPirate(pirate);
+            DBHelper.update(pirate);
     }
 
 }

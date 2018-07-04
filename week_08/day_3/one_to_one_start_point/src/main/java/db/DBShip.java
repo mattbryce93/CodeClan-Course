@@ -1,5 +1,6 @@
 package db;
 
+import models.Captain;
 import models.Pirate;
 import models.Ship;
 import org.hibernate.Criteria;
@@ -26,5 +27,20 @@ public class DBShip {
             session.close();
         }
         return results;
+    }
+
+    public static Captain getCaptain(Ship ship){
+        session = HibernateUtil.getSessionFactory().openSession();
+        Captain result = null;
+        try {
+            Criteria cr = session.createCriteria(Captain.class);
+            cr.add(Restrictions.eq("ship", ship));
+            result = (Captain) cr.uniqueResult();
+        } catch (HibernateException e) {
+            e.printStackTrace();
+        } finally {
+            session.close();
+        }
+        return result;
     }
 }
