@@ -31,6 +31,7 @@ public class Runner {
         List<Child> sopranoChildren = DBChild.allVoiceType("Soprano");
 
         friedrich.setAge(15);
+        friedrich.setRange("Bass");
         DBHelper.update(friedrich);
         Child updatedChild = DBChild.findByName("Friedrich");
 
