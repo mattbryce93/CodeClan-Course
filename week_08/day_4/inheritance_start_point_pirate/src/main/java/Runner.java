@@ -26,5 +26,18 @@ public class Runner {
         Raid raid1 = new Raid("Tortuga", 200);
         DBHelper.save(raid1);
 
-        }
+        Gunner gunner1 = new Gunner("John", "McC", 37, Weapon.PISTOL, pearl, 100);
+        DBHelper.save(gunner1);
+        Gunner gunner2 = new Gunner("Louise", "Reid", 21, Weapon.PISTOL, pearl, 200);
+        DBHelper.save(gunner2);
+
+        DeckHand deckHand = new DeckHand("Colin", "Bell", 21, Weapon.CANNON, pearl);
+        DBHelper.save(deckHand);
+
+        Gunner foundGunner = DBHelper.find(Gunner.class, gunner1.getId());
+
+        List<Pirate> allPirates = DBHelper.getAll(Pirate.class);
+        List<Gunner> allGunners = DBHelper.getAll(Gunner.class);
+        List<DeckHand> allDeckhands = DBHelper.getAll(DeckHand.class);
+    }
 }
