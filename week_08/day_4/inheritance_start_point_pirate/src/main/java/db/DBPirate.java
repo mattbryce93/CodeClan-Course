@@ -1,6 +1,9 @@
 package db;
 
-import models.*;
+import models.Captain;
+import models.Pirate;
+import models.Raid;
+import models.Weapon;
 import org.hibernate.Criteria;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
@@ -68,38 +71,42 @@ public class DBPirate {
 
     public static Captain getPiratesCaptain(Pirate pirate){
         session = HibernateUtil.getSessionFactory().openSession();
-        Captain result = null;
+        Captain captain = null;
         try {
+            transaction = session.beginTransaction();
             Criteria cr = session.createCriteria(Captain.class);
             cr.add(Restrictions.eq("ship", pirate.getShip()));
-            result = (Captain) cr.uniqueResult();
-        } catch (HibernateException e){
+            captain = (Captain)cr.uniqueResult();
+        } catch (HibernateException e) {
+            transaction.rollback();
             e.printStackTrace();
         } finally {
             session.close();
         }
-        return result;
+        return captain;
     }
 
     public static void addPirateToRaid(Pirate pirate, Raid raid){
-            pirate.addRaid(raid);
-            raid.addPirate(pirate);
-            DBHelper.update(pirate);
+        pirate.addRaid(raid);
+        raid.addPirate(pirate);
+        DBHelper.update(pirate); // REMEMBER THIS WILL CASCADE UPDATE TO PROJECT
     }
 
     public static List<Raid> getPirateRaids(Pirate pirate){
-        session = HibernateUtil.getSessionFactory().openSession();
         List<Raid> results = null;
+        session = HibernateUtil.getSessionFactory().openSession();
         try {
             Criteria cr = session.createCriteria(Raid.class);
-            cr.createAlias("pirates", "pirate");
-            cr.add(Restrictions.eq("pirate.id", pirate.getId()));
+            cr.createAlias("pirates", "pirate"); // ADDED
+            cr.add(Restrictions.eq("pirate.id", pirate.getId())); // ADDED
             results = cr.list();
-        } catch (HibernateException e) {
-            e.printStackTrace();
+        } catch (HibernateException ex){
+            ex.printStackTrace();
         } finally {
             session.close();
         }
         return results;
+
     }
+
 }

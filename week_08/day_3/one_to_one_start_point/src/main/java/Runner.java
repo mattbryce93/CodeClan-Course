@@ -1,5 +1,6 @@
 import db.DBHelper;
 import db.DBPirate;
+import db.DBRaid;
 import db.DBShip;
 import models.*;
 
@@ -46,5 +47,11 @@ public class Runner {
         DBPirate.addPirateToRaid(pirate2, raid1);
 
         Pirate raidingPirate = DBHelper.find(Pirate.class, pirate1.getId());
+
+        List<Pirate> raidPirates = DBRaid.getRaidPirates(raid1);
+
+        List<Raid> pirateRaids = DBPirate.getPirateRaids(pirate1);
+
+
     }
 }
