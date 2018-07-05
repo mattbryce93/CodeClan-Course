@@ -36,7 +36,7 @@ public class DBManager {
         Department result = null;
         try {
             Criteria cr = session.createCriteria(Department.class);
-            cr.add(Restrictions.eq("manager.id", manager.getId()));
+            cr.add(Restrictions.eq("manager", manager));
             result = (Department) cr.uniqueResult();
         } catch (HibernateException e){
             e.printStackTrace();
