@@ -14,5 +14,6 @@
     <mapping class="models.Employee"/>
     <mapping class="models.Manager"/>
     <mapping class="models.Administrator"/>
+    <mapping class="models.Department"/>
 </session-factory>
 </hibernate-configuration>

@@ -8,6 +8,7 @@ import java.util.List;
 
 @Entity
 @Table(name="pirates")
+@Inheritance(strategy = InheritanceType.JOINED)
 public class Pirate {
 
     private int id;
