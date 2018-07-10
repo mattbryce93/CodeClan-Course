@@ -1,0 +1,27 @@
+<table>
+    <tr>
+        <th>Flight Number</th>
+        <th>Airline</th>
+        <th>From</th>
+        <th>To</th>
+        <th>Seats<th>
+    </tr>
+    #foreach ($flight in $flights)
+        <tr>
+            <td>$flight.getFlightNumber()</td>
+            <td>$flight.getAirline()</td>
+            <td>$flight.getDepartureAirport()</td>
+            <td>$flight.getArrivalAirport()</td>
+            <td>
+                #if ($flight.isSeatsAvailable())
+                    Seats Available
+                #else
+                    Full
+                #end
+            </td>
+        <tr>
+    #end
+
+</table>
+
+<a href="/flights/new">Add Flight</a>

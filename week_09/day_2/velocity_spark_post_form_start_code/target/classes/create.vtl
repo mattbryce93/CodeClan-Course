@@ -1,0 +1,17 @@
+<p class="pageHeader">New Flight</p>
+
+<form action="/flights" method="post">
+    <label for="flightNumber">Flight Number:</label>
+    <input type="text" class="inputBox" name="flightNumber" required="true" id="flightNumber"/>
+
+    <label for="airline">Airline:</label>
+    <input type="text" class="inputBox" name="airline" required="true" id="airline" >
+
+    <label for="departureAirport">Departure Airport:</label>
+    <input type="text" class="inputBox" name="departureAirport" required="true" id="departureAirport" >
+
+    <label for="arrivalAirport">Arrival Airport:</label>
+    <input type="text" class="inputBox" name="arrivalAirport" required="true" id="arrivalAirport">
+
+    <input type="submit" value="Save" class="button" />
+</form>
