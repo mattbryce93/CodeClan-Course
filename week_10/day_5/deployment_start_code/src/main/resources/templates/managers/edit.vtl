@@ -1,0 +1,29 @@
+<p class="pageHeader">Edit Manager</p>
+
+<form action="/managers/$manager.getId()" method="post">
+    <label for="firstName">First Name:</label>
+    <input class="inputbox" type="text" name="firstName" required="true" value="$manager.getFirstName()">
+
+    <label for="lastName">Last Name:</label>
+    <input class="inputbox" type="text" name="lastName" required="true" value="$manager.getLastName()">
+
+    <label for="department">Department:</label>
+    <select id="department" name="department">
+      #foreach( $department in $departments )
+        <option value="$department.getId()"
+            #if ($department.getId() == $manager.getDepartment().getId())
+                selected="selected"
+            #end>
+            $department.getTitle()</option>
+      #end
+    </select>
+
+    <label for="salary">Salary(£):</label>
+    <input type="number" name="salary" required="true" class="inputbox" value="$manager.getSalary()">
+
+    <label for="budget">Budget(£):</label>
+    <input type="number" name="budget" required="true" class="inputbox" value="$manager.getBudget()">
+
+    <input type="submit" value="Save" class="button">
+</form>
+<a href="/managers/$manager.getId()" class="button center">Cancel</a>

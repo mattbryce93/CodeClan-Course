@@ -1,0 +1,14 @@
+<div>
+    <p> Name: $engineer.getFirstName() $engineer.getLastName()</p>
+    <p> Department: $engineer.getDepartment().getTitle()</p>
+    <p> Salary: £ $engineer.getSalary()</p>
+    #if ($manager)
+        <p> Manager: $manager.getFirstName() $manager.getLastName() </p>
+    #end
+</div>
+
+<a href="/engineers/$engineer.getId()/edit" class="button center">Edit</a>
+<form action="/engineers/$engineer.getId()/delete" method="post">
+    <input type="submit" value="Delete" class="button center">
+</form>
+<a href="/engineers" class="button center">Back to list</a>
