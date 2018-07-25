@@ -1,8 +1,8 @@
 {
-  "name": "water_bottle",
+  "name": "shopping_basket",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Using the TDD techniques we've learned today...",
+  "main": "shopping_basket.js",
   "scripts": {
     "test": "mocha specs"
   },
