@@ -24,7 +24,7 @@ describe("Bank", function(){
       bank.addAccount(account2);
       bank.addAccount(account3);
       bank.addAccount(account4);
-      assert.deepStrictEqual(bank.findAccountByName("Colin"), [account3]);
+      assert.deepStrictEqual(bank.findAccountByName("Colin"), account3);
     });
 
     it("should be able to find the largest account", function(){
