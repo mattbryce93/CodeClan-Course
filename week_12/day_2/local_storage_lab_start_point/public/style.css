@@ -1,0 +1,73 @@
+@-webkit-keyframes AnimationName {
+  0%{background-position:58% 0%}
+  50%{background-position:43% 100%}
+  100%{background-position:58% 0%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:58% 0%}
+  50%{background-position:43% 100%}
+  100%{background-position:58% 0%}
+}
+
+@keyframes AnimationName {
+  0%{background-position:58% 0%}
+  50%{background-position:43% 100%}
+  100%{background-position:58% 0%}
+}
+
+@-webkit-keyframes notehover{
+
+  100% { -webkit-transform: scale(1.1) rotate(0deg);}
+}
+
+.center-me{
+  width: 90%;
+  margin-top: 1em;
+  display: block;
+}
+
+body{
+  background: linear-gradient(218deg, #f6f8f7, #12f4e8, #ef9e8e, #87f8a7);
+  background-size: 800% 800%;
+
+  -webkit-animation: AnimationName 21s ease infinite;
+  -moz-animation: AnimationName 21s ease infinite;
+  animation: AnimationName 21s ease infinite;
+
+  min-width: 370px;
+}
+
+input{
+  margin-left: 40%;
+  font-size: 1em;
+  border-radius: 1em;
+}
+
+button{
+  font-size: 1em;
+    border-radius: 0.5em;
+}
+
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+li{
+  list-style-type: none;
+  text-decoration:none;
+  color:#000;
+  height:10em;
+  width:10em;
+  padding:1em;
+  font-family: 'Caveat', cursive;
+  font-size: 1.3em;
+  margin: 0.5em;
+  transition: transform .2s;
+}
+
+li:hover{
+  -webkit-animation: notehover 0.5s forwards;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
