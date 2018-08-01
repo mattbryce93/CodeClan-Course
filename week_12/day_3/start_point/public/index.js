@@ -40,6 +40,8 @@ const requestComplete = function(){
   populateOptions(countries);
 };
 
+//broken method if no local storage exists
+
 const populateOptions = function(countries){
   var lastSelected = localStorage.getItem('lastSelected');
   lastSelected = JSON.parse(lastSelected);
