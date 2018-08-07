@@ -6,20 +6,34 @@ const ObjectID = require('mongodb').ObjectID;
 
 server.use(parser.json());
 server.use(express.static('client/build'));
-server.use(parser.urlencoded({extended: true}));
+server.use(parser.urlencoded({extended:true}));
 
 MongoClient.connect('mongodb://localhost:27017', function(err, client){
   if(err){
     console.log(err);
     return;
   }
-  const db = client.db("star_wars");
+  const db = client.db('spacelaunchesdb');
   console.log('Connected to database');
 
-  server.post('/api/quotes', function(req, res){
-    const quotesCollection = db.collection('quotes');
-    const quoteToSave = req.body;
-    quotesCollection.save(quoteToSave, function(err, result){
+  server.get('/api/launches', function(req, res){
+    const launchCollection = db.collection('launches');
+    launchCollection.find().toArray(function(err, allLaunches){
+      if(err){
+        console.log(err);
+        res.status(500);
+        res.send();
+      }
+      res.status(201);
+      res.json(allLaunches);
+      res.send();
+    })
+  });
+
+  server.post('/api/launches', function(req, res){
+    const launchCollection = db.collection('launches');
+    const launchToSave = req.body;
+    launchCollection.save(launchToSave, function(err, result){
       if(err){
         console.log(err);
         res.status(500);
@@ -32,41 +46,26 @@ MongoClient.connect('mongodb://localhost:27017', function(err, client){
     });
   });
 
-  server.get('/api/quotes', function(req, res){
-    const quotesCollection = db.collection('quotes');
-    quotesCollection.find().toArray(function(err, allQuotes){
-      if(err){
-        console.log(err);
-        res.status(500);
-        res.send();
-      }
-      res.status(201);
-      res.json(allQuotes);
-      res.send();
-    })
-  });
-
-  server.delete('/api/quotes', function(req, res){
-    const quotesCollection = db.collection('quotes');
-    quotesCollection.deleteMany(function(err, result){
+  server.delete('/api/launches', function(req, res){
+    const launchCollection = db.collection('launches');
+    launchCollection.deleteMany(function(err, result){
       if(err){
         console.log(err);
         res.status(500);
         res.send();
       }
       console.log('Deleted all objects in database');
-      //result.n will equal the number of quotes deleted from the collection
       res.status(204);
       res.send();
     })
   });
 
-  server.put('/api/quotes/:id', function(req, res){
-    const quotesCollection = db.collection('quotes');
+  server.put('/api/launches/:id', function(req,res){
+    const launchCollection = db.collection('launches');
     const objectID = ObjectID(req.params.id);
     const filterObject = {_id: objectID};
     const updatedData = req.body;
-    quotesCollection.update(filterObject, updatedData, function(err, result){
+    launchCollection.update(filterObject, updatedData, function(err, result){
       if(err){
         console.log(err);
         res.status(500);
