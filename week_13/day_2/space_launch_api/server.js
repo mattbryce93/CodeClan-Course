@@ -16,6 +16,22 @@ MongoClient.connect('mongodb://localhost:27017', function(err, client){
   const db = client.db('spacelaunchesdb');
   console.log('Connected to database');
 
+  server.get('/api/launches/:id', function(req, res){
+    const launchCollection = db.collection('launches');
+    const objectID = ObjectID(req.params.id);
+    const filterObject = {_id: objectID};
+    launchCollection.find(filterObject).toArray(function(err, allLaunches){
+      if(err){
+        console.log(err);
+        res.status(500);
+        res.send();
+      }
+      res.status(201);
+      res.json(allLaunches);
+      res.send();
+    })
+  });
+
   server.get('/api/launches', function(req, res){
     const launchCollection = db.collection('launches');
     launchCollection.find().toArray(function(err, allLaunches){
@@ -73,6 +89,22 @@ MongoClient.connect('mongodb://localhost:27017', function(err, client){
       }
       console.log('Updated object in database');
       res.status(204);
+      res.send();
+    })
+  });
+
+  server.delete('/api/launches/:id', function(req, res){
+    const launchCollection = db.collection('launches');
+    const objectID = ObjectID(req.params.id);
+    const filterObject = {_id: objectID};
+    launchCollection.deleteOne(filterObject, function(err, result){
+      if(err){
+        console.log(err);
+        res.status(500);
+        res.send();
+      }
+      console.log('Deleted object in database');
+      res.status(200);
       res.send();
     })
   });
