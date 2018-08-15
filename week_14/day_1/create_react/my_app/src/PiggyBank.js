@@ -10,6 +10,38 @@ class PiggyBank extends React.Component {
     this.withdraw = this.withdraw.bind(this)
   }
 
+  // componentWillMount(){
+  //   console.log("the component will mount!");
+  //   const button = document.querySelector('button');
+  //   console.log("Button:", button);
+  // }
+  //
+  // componentDidMount(){
+  //   console.log("the component did mount!");
+  //   const button = document.querySelector('button');
+  //   console.log("Button:", button);
+  // }
+
+  // componentDidUpdate(prevProps, prevState){
+  //   console.log("Component DID UPDATE!");
+  //   console.log({prevProps});
+  //   console.log({prevState});
+  // }
+
+  componentDidMount(){
+    // const request = new XMLHttpRequest();
+    // request.open("GET", "https://restcountries.eu/rest/v2/all");
+    // request.addEventListener('load', function(){
+    //   console.log(this.responseText);
+    // });
+    // request.send();
+
+    fetch("https://restcountries.eu/rest/v2/all")
+    .then(responseText => responseText.json())
+    .then(countriesData => console.log(countriesData));
+  }
+
+
   deposit() {
     this.setState(prevState => {
       return {total: prevState.total + this.props.depositAmount}
