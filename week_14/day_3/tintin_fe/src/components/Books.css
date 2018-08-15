@@ -1,0 +1,25 @@
+.book {
+    display: block;
+    width: 100%;
+    background: #3066BE;
+    color: #fff;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.book h4 {
+    font-size: 2em;
+    margin: 10px 0 0 20px;
+}
+
+.book h5 {
+    margin: 10px 0 0 20px;
+}
+
+.book img {
+
+}
+
+.book p {
+    padding: 20px;
+}

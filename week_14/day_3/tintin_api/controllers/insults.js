@@ -6,7 +6,7 @@ insultRouter.get("/", function(req, res){
     const db = req.app.get("db");
 
     const insults = db.collection("insults");
-    
+
     insults.find().toArray(function(err, insults){
         if(err){
             console.log(err);

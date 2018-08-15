@@ -1,0 +1,37 @@
+#haddockWrap {
+    display: flex;
+    margin-top: 40px;
+}
+
+#haddockWrap img {
+    width: 150px;
+    height: 150px;
+}
+
+p#insult {
+    font-size: 3em;
+    color: #3066BE;
+    font-family: 'Coming Soon', cursive;
+    transform:  skew(-0.06turn, -15deg);
+    margin-top: -10px;
+}
+
+button {
+    font-size: 1em;
+    padding: 0.8em;
+    position: relative;
+    top: -6px;
+    -webkit-appearance: none;
+    background: #3066BE;
+    color: #fff;
+    border: 1px solid #3066BE;
+    margin: 0 auto;
+    font-size: 2em;
+}
+
+button:hover {
+    color: #3066BE;
+    background-color: #fff;
+    cursor: pointer;
+    outline: none;
+}

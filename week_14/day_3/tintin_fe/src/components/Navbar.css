@@ -1,0 +1,26 @@
+nav ul {
+    display: flex;
+    margin: 0 0 40px 0;
+    padding: 0;
+    justify-content: space-evenly;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav li a, nav li a:link, nav li a:visited {
+    padding: 1.5em;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Coming Soon', sans-serif;
+    font-style: italic;
+    color: #3066BE;
+    transition: all 0.1s ease-in;
+}
+
+nav li a:hover, nav li a:active, nav li a:focus {
+    background: #3066BE;
+    color: #fff;
+}
