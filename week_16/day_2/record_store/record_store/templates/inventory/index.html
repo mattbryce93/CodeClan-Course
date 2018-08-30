@@ -1,0 +1,12 @@
+{% extends "index.html" %}
+
+{% block content %}
+  {% for artist in artists %}
+
+    <h2>{{ artist.name }}</h2>
+    {% for album in artist.album_set.all %}
+      <p>{{ album.title }}</p>
+    {% endfor %}
+
+  {% endfor %}
+{% endblock %}
